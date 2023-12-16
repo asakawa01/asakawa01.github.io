@@ -14,7 +14,6 @@ h1,h2{
     border-radius: 10px;
     color: #FEFEE2 ;
     font-family: Tahoma, Verdana, sans-serif;
-    
     box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.75);
   }
 h1{
@@ -30,11 +29,22 @@ h2{
   width: 33.33%;
   margin-bottom : 15px;
 }
+.continer{
+}
+.row {
+  width: 100%; 
+}
+.col {
+    position: relative; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
 .title_region{
     position: absolute;
-    padding: 3px;
     top: 0px;
     right: 0px;
+    padding: 3px;
     width:auto;
     height: auto;
     text-align: center;
@@ -42,22 +52,6 @@ h2{
     color: rgb(237,39,43);
     border: 1px solid black ;
     box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.75);
- 
-}
-.col {
-  position: relative; 
-  
-   /* 
-   background-color: hsla(231, 20%, 75%, 0.812);
-   box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
- 
-    */ 
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    margin-bottom: 10px;
-    border-radius: 5px;
-   
 }
 p{
   display: flex;
@@ -65,10 +59,8 @@ p{
   align-items: center;
 
   text-align: justify;
-  
   background-color: hsla(231, 20%, 75%, 0.812);
   box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
-  width: 100%;
   margin: 10px;
   padding: 10px;
   height: 150px;
@@ -77,11 +69,9 @@ p{
   font-weight: bold;
   border-radius: 3px;
 }
+
 /* Simple Responsive Framework. */
-.row {
-  width: 100%;
-  
-}
+
 /********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
